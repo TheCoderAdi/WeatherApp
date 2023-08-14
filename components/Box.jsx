@@ -14,7 +14,7 @@ const Box = ({ text }) => {
       type = deg / 10;
       break;
     case "Gust":
-      type = gust;
+      type = gust * 10;
       break;
   }
   return (

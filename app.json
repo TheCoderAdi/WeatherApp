@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#adaaba"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,8 +19,9 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#adaaba"
+      },
+      "package": "com.aditya.weatherapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"

@@ -16,6 +16,7 @@ const WeatherContext = ({ children }) => {
   const [animate, setAnimate] = useState(true);
   const getStateName = async () => {
     let { status } = await Location.requestForegroundPermissionsAsync();
+    console.log({ status });
     if (status !== "granted") {
       setStateName("india");
       return;

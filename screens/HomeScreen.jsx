@@ -96,9 +96,9 @@ const HomeScreen = () => {
                   justifyContent: "center",
                 }}
               >
-                <Box text={"Wind"} wind={wind} />
-                <Box text={"Deg"} />
+                <Box text={"Wind"} />
                 <Box text={"Gust"} />
+                <Box text={"Deg"} />
               </ScrollView>
             </View>
           </View>

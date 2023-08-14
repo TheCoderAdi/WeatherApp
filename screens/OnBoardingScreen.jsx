@@ -39,7 +39,7 @@ const HomeScreen = ({ navigation }) => {
             <TouchableOpacity
               style={styles.button}
               onPress={async () => {
-                navigation.navigate("Home");
+                navigation.navigate("Main");
                 await AsyncStorage.setItem("visited", "yes");
               }}
             >

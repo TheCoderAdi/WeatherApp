@@ -76,7 +76,6 @@ function StackContainer() {
   useEffect(() => {
     checkVisited();
   }, []);
-
   if (visit === null) return <Loader />;
 
   if (visit) {

@@ -15,6 +15,7 @@ const { height, width } = Dimensions.get("window");
 const AllowPermission = () => {
   const statusCheck = async () => {
     let { status } = await Location.requestForegroundPermissionsAsync();
+    console.log({ status });
     if (status !== "denied") await AsyncStorage.setItem("asked", "granted");
     else await AsyncStorage.setItem("asked", "notgranted");
   };

@@ -14,7 +14,7 @@ const RingProgress = ({ type, text }) => {
   const { animate } = useContext(WeatherType);
   const radius = 100;
   const strokeWidth = 30;
-  const progress = (type / 100).toFixed(1);
+  const progress = (type / 100)?.toFixed(1);
   const color = "#6151C3";
   const innerRadius = radius - strokeWidth / 2;
   const circumference = 2 * Math.PI * innerRadius;
